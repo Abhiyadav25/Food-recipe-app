@@ -1,0 +1,145 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    
+}
+.container{
+    min-height: 100vh;
+}
+.mealsearch{
+    margin:8px;
+}
+.mealsearch h1{
+    text-align: center;
+    font-size: 42px;
+    margin: 14px;
+    
+}
+blockquote{
+    text-align: center;
+}
+.search-box{
+    display:flex;
+    justify-content: center;
+    margin:20px;
+    
+    
+}
+.search-box input{
+    width:76%;
+    height:60px;
+    border: 3px solid black;
+    border-radius: 30px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    padding:20px;
+    font-size: 15px;
+    
+}
+.search-box button{
+    border: 3px solid black;
+    border-left:0px;
+    border-radius: 30px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    padding:18px;
+    background-color: tomato;
+    cursor: pointer;
+}
+.results{
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.results h2{
+    text-align: center;
+    font-size: 42px;
+    margin:15px;
+}
+
+.results{
+    overflow: hidden;
+    
+    
+}
+.meal-items img{
+    display:flex;
+    margin:6px auto;
+    width:50%;
+}
+.meal-items h3{
+    text-align: center;
+    font-size: 25px;
+    margin:10px;
+}
+
+.recipe-btn{
+    text-decoration: none;
+    border :2px solid black;
+    padding:7px 28px;
+    border-radius: 25px;
+    position:absolute;
+    left:555px;
+    font-size: 18px;   
+    font-family: sans-serif;
+    color:white;
+    background-color: tomato;
+    cursor: pointer;
+
+}
+.mealcontent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+.mealcontent h1,p,h2{
+    text-align: center;
+    margin:13px;
+}
+.mealcontent h1{
+    font-size: 40px;
+}
+.meal-items h2{
+    font-size: 25px;;
+}
+.mealcontent p{
+    font-size: 20px;
+    margin:13px 220px;
+}
+.mealcontent img{
+    width:50%;
+    text-align: center;
+    position: relative;
+    left:320px;
+}
+.content-btn{
+    text-align: center;
+    text-decoration: none;
+    border:2px solid red;
+    background-color: tomato;
+    color:white;
+    padding:9px 24px;
+    margin:8px;
+    width:150px;
+    position: relative;
+    left:550px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.cross{
+    width:3%;
+    padding:10px 2px;
+    position: relative;
+    left:960px;
+    top:55px;
+    border:3px solid black;
+    border-radius: 15px;
+}
